@@ -1,0 +1,33 @@
+body {
+    margin: 20px 50px 20px 50px;
+    padding: 30px;
+    background-color: #FFCDB2;
+}
+.title {
+    font-family: "Arial Bold", sans-serif;
+    font-size: 24px;
+    color: #3F2E3E;
+}
+p, div {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    color: #3F2E3E;
+    text-align: justify;
+}
+h2 {
+    font-family: "Arial Bold", sans-serif;
+    font-size: 20px;
+    color: #3F2E3E;
+}
+img {
+    border-color: #834a48;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50px;
+}
+.bg {
+    margin-top: 10px;
+    padding: 30px;
+    background-color: #FFB4A2;
+    border-radius: 30px;
+}
