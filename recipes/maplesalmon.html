@@ -5,12 +5,14 @@
   <meta charset="UTF-8" />
   <title>Maple Salmon</title>
   <link rel="stylesheet" href="../stylesheet.css" />
+  <script src="../scripts.js" defer></script>
+  <link href=”https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css” rel=”stylesheet”>
 </head>
 
 <body>
   <a href="../index.html">Home</a>
   <div class="bg">
-    <h1 class="title">Maple Salmon Recipe</h1>
+    <h1 class="title">Maple Smalmon Recipe</h1>
     <img src="../images/salmon.jpeg" alt="maple salmon" />
     <h2>Description</h2>
     <p>
@@ -20,7 +22,8 @@
     </p>
     <br />
     <h2>Ingredients</h2>
-    <div>
+    <button onclick="toggleIngredients('salmonIngredients')">Show/Hide Ingredients</button>
+    <div id="salmonIngredients" style="display: none;">
       <ul>
         <li>¼ cup maple syrup</li>
         <li>2 tablespoons soy sauce</li>

@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <title>Chocolate Cherry Cheesecake</title>
   <link rel="stylesheet" href="../stylesheet.css" />
+  <script src="../scripts.js" defer></script>
+  <link href=”https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css” rel=”stylesheet”>
 </head>
 
 <body>
@@ -22,7 +24,8 @@
     </p>
     <br />
     <h2>Ingredients</h2>
-    <div>
+    <button onclick="toggleIngredients('cheesecakeIngredients')">Show/Hide Ingredients</button>
+    <div id="cheesecakeIngredients" style="display: none;">
       <ul>
         <li>24 whole chocolate sandwich cookies (such as OREO)</li>
         <li>4 tablespoons butter, melted</li>
@@ -77,7 +80,7 @@
           medium heat until it begins to steam. Remove from heat; add chocolate
           chips and pinch salt. Stir until chocolate is completely melted and
           smooth.
-        </li>
+        </li>ate
         <li>
           Line a cookie sheet with parchment paper. Place cheesecake on the
           lined cookie sheet and release the side of the springform pan. Pour

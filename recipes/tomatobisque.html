@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <title>Tomato Bisque</title>
   <link rel="stylesheet" href="../stylesheet.css">
+  <script src="../scripts.js" defer></script>
+  <link href=”https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css” rel=”stylesheet”>
 </head>
 
 <body>
@@ -21,7 +23,8 @@
     </p>
     <br>
     <h2>Ingredients</h2>
-    <div>
+    <button onclick="toggleIngredients('bisqueIngredients')">Show/Hide Ingredients</button>
+    <div id="bisqueIngredients" style="display: none;">
       <ul>
         <li>1 tablespoon olive oil</li>
         <li>1 cup diced onion</li>

@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <title>Boursin Omelet</title>
   <link rel="stylesheet" href="../stylesheet.css">
+  <script src="../scripts.js" defer></script>
+  <link href=”https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css” rel=”stylesheet”>
 </head>
 
 <body>
@@ -20,7 +22,8 @@
     </p>
     <br>
     <h2>Ingredients</h2>
-    <div>
+    <button onclick="toggleIngredients('omeletIngredients')">Show/Hide Ingredients</button>
+    <div id="omeletIngredients" style="display: none;">
       <ul>
         <li>3 large eggs</li>
         <li>1 teaspoon water</li>
