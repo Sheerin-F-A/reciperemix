@@ -11,7 +11,7 @@
 
 <body>
   <a href="../index.html">Home</a>
-  <div class="bg">
+  <div class="recipe-page">
     <h1 class="title">Garlic Butter Shrimp Recipe</h1>
     <img src="../images/shrimp.webp" alt="garlic butter shrimp" />
     <h2>Description</h2>
@@ -21,7 +21,7 @@
     </p>
     <br />
     <h2>Ingredients</h2>
-    <button onclick="toggleIngredients('shrimpIngredients')">Show/Hide Ingredients</button>
+    <button onclick="toggleIngredients('shrimpIngredients')" class= "show-ingredients">Show/Hide Ingredients</button>
     <div id="shrimpIngredients" style="display: none;">
       <ul>
         <li>1 pound large shrimp, peeled and deveined</li>
@@ -34,7 +34,7 @@
     </div>
     <br />
     <h2>Steps</h2>
-    <div>
+    <div class="recipe-divider">
       <ol>
         <li>Melt butter in a large skillet over medium heat.</li>
         <li>Add garlic and sauté until fragrant, about 1 minute.</li>
