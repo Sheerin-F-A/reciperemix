@@ -11,8 +11,8 @@
 
 <body>
   <a href="../index.html">Home</a>
-  <div class="bg">
-    <h1 class="title">Maple Smalmon Recipe</h1>
+  <div class="recipe-page">
+    <h1 class="title">Maple Salmon Recipe</h1>
     <img src="../images/salmon.jpeg" alt="maple salmon" />
     <h2>Description</h2>
     <p>
@@ -22,7 +22,7 @@
     </p>
     <br />
     <h2>Ingredients</h2>
-    <button onclick="toggleIngredients('salmonIngredients')">Show/Hide Ingredients</button>
+    <button onclick="toggleIngredients('salmonIngredients')" class= "show-ingredients">Show/Hide Ingredients</button>
     <div id="salmonIngredients" style="display: none;">
       <ul>
         <li>¼ cup maple syrup</li>
@@ -35,7 +35,7 @@
     </div>
     <br />
     <h2>Steps</h2>
-    <div>
+    <div class="recipe-divider">
       <ol>
         <li>Gather all ingredients.</li>
         <li>
